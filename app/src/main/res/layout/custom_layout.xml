@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textDirection="anyRtl"
+    android:gravity="right"
+    >
+    <TextView
+        android:layout_alignParentRight="true"
+        android:id="@+id/textviewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject Name"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_alignParentRight="true"
+        android:id="@+id/textviewPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject Full Form"
+        android:layout_below="@+id/textviewName"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_alignParentRight="true"
+        android:id="@+id/textviewtitlte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textviewName"
+        android:text="Subject Full Form"
+        android:layout_below="@+id/textviewPhoneNumber"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        />
+    <TextView
+      android:layout_alignParentRight="true"
+        android:id="@+id/textviewspc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textviewName"
+        android:text="Subject Full Form"
+        android:layout_below="@+id/textviewtitlte"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        />
+
+
+
+</RelativeLayout>

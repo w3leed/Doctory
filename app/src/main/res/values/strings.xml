@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Doctory</string>
+    <string name="button"></string>
+    <string name="decrypt_text">decrypt</string>
+    <string name="encrypt_text">Encrypt</string>
+    <string name="shiftfield">Key</string>
+    <string name="close_text">Close</string>
+    <string name="capher"></string>
+    <string name="txtCredits"><a href="https://www.facebook.com/new.human.359"> 7aobaty waleed </a></string>
+    <string name="search" />
+    />
+</resources>

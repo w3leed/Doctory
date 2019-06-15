@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@drawable/gradient"
+tools:context=".MainActivity"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    >
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="مرحبا بك فى أبلكيشن دكتورى"
+        android:textColor="#faf5f5"
+        android:textSize="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/editText"
+        android:layout_height="10dp"
+        android:id="@+id/cardView">
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/butto1"
+        android:layout_width="248dp"
+        android:layout_height="44dp"
+        android:background="@drawable/btn_selector_yellow"
+        android:text="إبدا"
+        android:textColor="#2a2f4d"
+        android:layout_marginTop="49dp"
+        android:textSize="22sp"
+        android:layout_below="@+id/cardView"
+        android:layout_centerHorizontal="true" />/////////
+
+    <Button
+    android:id="@+id/casser"
+    android:layout_width="248dp"
+        android:layout_height="44dp"
+        android:background="@drawable/btn_selector_yellow"
+    android:text="دليل أطباء مصر"
+    android:textSize="22sp"
+    android:textColor="#2a2f4d"
+        android:layout_marginTop="15dp"
+
+        android:layout_below="@+id/butto1"
+        android:layout_alignLeft="@+id/butto1"
+        android:layout_alignStart="@+id/butto1" />
+
+<Button
+    android:id="@+id/rlc"
+    android:layout_width="248dp"
+    android:layout_height="44dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/btn_selector_yellow"
+    android:text="كيفية الإسـتخدام"
+    android:textSize="22sp"
+    android:textColor="#2a2f4d"
+    android:layout_centerVertical="true"
+    android:layout_alignLeft="@+id/casser"
+    android:layout_alignStart="@+id/casser" />
+
+    <Button
+        android:id="@+id/bTN_admin"
+        android:layout_width="248dp"
+        android:layout_height="44dp"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_below="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_selector_yellow"
+        android:text="الأدمن"
+        android:textColor="#2a2f4d"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="248dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/btn_selector_yellow"
+        android:text=" تواصل معانا"
+        android:textColor="#2a2f4d"
+        android:textSize="22sp"
+        android:layout_below="@+id/rlc"
+        android:layout_alignLeft="@+id/rlc"
+        android:layout_alignStart="@+id/rlc" />
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:numStars="5"
+        android:rating="4"
+        android:stepSize=".0"
+
+        android:layout_marginTop="50dp"
+      android:layout_below="@+id/bTN_admin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+</RelativeLayout>
